@@ -1,0 +1,24 @@
+
+11/7/2024, 7:12:51 PM
+
+Operating System
+  Name                        = macOS
+  Version                     = 15.0.1
+  Architecture                = 64-bit
+  # CPUs                      = 8
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 18.20.4
+  npm Version                 = 10.7.0
+
+Titanium CLI
+  CLI Version                 = 7.1.5
+
+Titanium SDK
+  SDK Version                 = 12.5.1.GA
+  SDK Path                    = /Users/kuryshchuk/Library/Application Support/Titanium/mobilesdk/osx/12.5.1.GA
+  Target Platform             = android
+
+Command
+  /Users/kuryshchuk/.nvm/versions/node/v18.20.4/bin/node /Users/kuryshchuk/.nvm/versions/node/v18.20.4/bin/titanium build -p android

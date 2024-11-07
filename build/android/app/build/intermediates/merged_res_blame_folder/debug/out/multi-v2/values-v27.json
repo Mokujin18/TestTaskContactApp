@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/res/values-v27/values-v27.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,261,488",
+                        "endLines": "5,9,18",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "256,483,1050"
+                    }
+                }
+            ]
+        }
+    ]
+}

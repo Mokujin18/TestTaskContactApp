@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.contactapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:6:2-63
+11-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:6:19-61
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:10:2-72
+12-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:10:19-70
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:14:2-75
+13-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:14:19-73
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] /Users/kuryshchuk/.gradle/caches/transforms-3/7c46320d9b526b8c0d15c62a07e1ac33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.contactapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] /Users/kuryshchuk/.gradle/caches/transforms-3/7c46320d9b526b8c0d15c62a07e1ac33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] /Users/kuryshchuk/.gradle/caches/transforms-3/7c46320d9b526b8c0d15c62a07e1ac33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.contactapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] /Users/kuryshchuk/.gradle/caches/transforms-3/7c46320d9b526b8c0d15c62a07e1ac33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] /Users/kuryshchuk/.gradle/caches/transforms-3/7c46320d9b526b8c0d15c62a07e1ac33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:20:2-31:16
+22        android:name="com.example.contactapp.ContactappApplication"
+22-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:20:77-113
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /Users/kuryshchuk/.gradle/caches/transforms-3/7c46320d9b526b8c0d15c62a07e1ac33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:20:15-49
+26        android:label="ContactApp"
+26-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:20:50-76
+27        android:theme="@style/Theme.Titanium.App"
+27-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:20:150-191
+28        android:usesCleartextTraffic="true" >
+28-->/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/AndroidManifest.xml:20:114-149
+29        <activity
+30            android:name="com.example.contactapp.ContactappActivity"
+31            android:alwaysRetainTaskState="true"
+32            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+33            android:exported="true"
+34            android:label="@string/app_name"
+35            android:theme="@style/Theme.Titanium" >
+36            <intent-filter>
+37                <action android:name="android.intent.action.MAIN" />
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:10:9-13:40
+43            android:name="org.appcelerator.titanium.TiActivity"
+43-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:11:13-64
+44            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+44-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:12:13-194
+45            android:exported="false" />
+45-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:13:13-37
+46        <activity
+46-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:14:9-18:67
+47            android:name="org.appcelerator.titanium.TiTranslucentActivity"
+47-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:15:13-75
+48            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+48-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:16:13-194
+49            android:exported="false"
+49-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:17:13-37
+50            android:theme="@style/Theme.AppDerived.Translucent" />
+50-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:18:13-64
+51        <activity
+51-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:19:9-23:69
+52            android:name="ti.modules.titanium.media.TiCameraActivity"
+52-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:20:13-70
+53            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+53-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:21:13-194
+54            android:exported="false"
+54-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:22:13-37
+55            android:theme="@style/Theme.Titanium.Dark.Fullscreen" />
+55-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:23:13-66
+56        <activity
+56-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:24:9-28:69
+57            android:name="ti.modules.titanium.media.TiCameraXActivity"
+57-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:25:13-71
+58            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+58-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:26:13-194
+59            android:exported="false"
+59-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:27:13-37
+60            android:theme="@style/Theme.Titanium.Dark.Fullscreen" />
+60-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:28:13-66
+61        <activity
+61-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:29:9-33:66
+62            android:name="ti.modules.titanium.media.TiVideoActivity"
+62-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:30:13-69
+63            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+63-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:31:13-194
+64            android:exported="false"
+64-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:32:13-37
+65            android:theme="@style/Theme.AppDerived.Fullscreen" />
+65-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:33:13-63
+66        <activity
+66-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:34:9-36:40
+67            android:name="ti.modules.titanium.ui.android.TiPreferencesActivity"
+67-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:35:13-80
+68            android:exported="false" />
+68-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:36:13-37
+69
+70        <provider
+70-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:38:9-42:50
+71            android:name="org.appcelerator.titanium.io.TiFileProvider"
+71-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:39:13-71
+72            android:authorities="com.example.contactapp.tifileprovider"
+72-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:40:13-66
+73            android:exported="false"
+73-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:41:13-37
+74            android:grantUriPermissions="true" />
+74-->[org.appcelerator:titanium:12.5.1] /Users/kuryshchuk/.gradle/caches/transforms-3/909a92d1be8f1d74c529b5e7d6dcfeb3/transformed/jetified-titanium-12.5.1/AndroidManifest.xml:42:13-47
+75        <provider
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+77            android:authorities="com.example.contactapp.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/kuryshchuk/.gradle/caches/transforms-3/40d2f51a79b7ca1d7eee1aaa8b0722e1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kuryshchuk/.gradle/caches/transforms-3/c15684f06dd08c77ab20f2d4a6610a33/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kuryshchuk/.gradle/caches/transforms-3/c15684f06dd08c77ab20f2d4a6610a33/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kuryshchuk/.gradle/caches/transforms-3/c15684f06dd08c77ab20f2d4a6610a33/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+85        </provider>
+86
+87        <service
+87-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
+88            android:name="androidx.camera.core.impl.MetadataHolderService"
+88-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
+89            android:enabled="false"
+89-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
+90            android:exported="false" >
+90-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
+92                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+92-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
+93                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+93-->[androidx.camera:camera-camera2:1.2.3] /Users/kuryshchuk/.gradle/caches/transforms-3/c3f47b1128d238b686e51dd39b88d340/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
+94        </service>
+95    </application>
+96
+97</manifest>

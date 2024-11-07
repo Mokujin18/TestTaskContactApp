@@ -1,0 +1,3 @@
+"/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/java/com/example/contactapp/ContactappActivity.java"
+"/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/java/com/example/contactapp/ContactappAppInfo.java"
+"/Users/kuryshchuk/Work/JustIt/ContactApp/build/android/app/src/main/java/com/example/contactapp/ContactappApplication.java"
